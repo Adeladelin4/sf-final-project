@@ -234,6 +234,7 @@ SELECT
 FROM transaction t
 JOIN teststart ts ON t.user_id = ts.user_id
 WHERE t.value < 0 AND t.type_id = 1
+
 Дополнительное задание 2( СТО)
 SELECT 
     timestamp AS activity_time,
